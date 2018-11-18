@@ -1,0 +1,30 @@
+.widget {
+    width: 300px;
+    height: 400px;
+    min-height: 6.5em;
+    background-color: #29e;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+}
+.hidden {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+#demo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e9e8;
+}
+.fixed-size {
+    height: 300px;
+    width: 100%;
+    background-color: #4bf;
+    overflow: auto;
+}
